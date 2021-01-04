@@ -1,0 +1,185 @@
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#name {
+    margin-right: 30px;
+}
+
+.section1 {
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 17%;
+    color: white;
+    padding-top: 17%;
+    font-family: 'Gabriela', serif;
+}
+
+.section3 {
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.section6 {
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-top: 4%;
+}
+
+.image {
+    position: relative;
+}
+
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.portfolio {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+    padding-left: 20%;
+}
+
+.column1 {
+    float: left;
+    width: 22%;
+    padding: 2px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row1 {
+    display: flex;
+    padding-left: 13%;
+}
+
+.portfolio h2 {
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 45%;
+}
+
+.image1 {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    font-size: small;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image1:hover .overlay {
+    opacity: 0.5;
+}
+
+#mouse-click {
+    padding-bottom: 7px;
+}
+
+
+.show1 {
+    display: none;
+}
+
+.show2 {
+    display: none;
+}
+
+.show3 {
+    display: none;
+}
